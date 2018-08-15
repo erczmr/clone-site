@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Alte';
+    src: url('https://ff.static.1001fonts.net/a/l/alte-din-1451-mittelschrift.regular.ttf');
+}
+
+li {
+	float: left;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+  border-bottom: 1px solid #bbb;
+}
+li a {
+  font-family: 'Alte', Fallback, sans-serif;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+}
+
+.free{
+  font-family: 'Alte', Fallback, sans-serif;
+	display: block;
+	background-color: white;
+	text-align: center;
+	padding: 8px 70px;
+	text-decoration: none;
+}
+li:last-child {
+    color: grey;
+	  border-left:1px solid #bbb;
+}
+li a:hover:not(.active) {
+	color: red;
+}
